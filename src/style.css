@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif; /* Cambiar la fuente por defecto */
+    font-size: 16px; /* Tamaño de fuente base */
+    color: #333; /* Color de texto base */
+  }
+  
+  h1 {
+    color: #007bff; /* Azul */
+    font-size: 24px; /* Tamaño de título principal */
+  }
+  
+  h2 {
+    color: #28a745; /* Verde */
+    font-size: 20px; /* Tamaño de subtítulos */
+  }
+  
+  p {
+    line-height: 1.5; /* Aumentar el espacio entre líneas */
+  }
+  
+
+
+  body {
+    margin: 20px; /* Margen alrededor del cuerpo de la página */
+    padding: 20px; /* Relleno alrededor del cuerpo de la página */
+  }
+  
+  section {
+    margin-bottom: 20px; /* Margen inferior entre secciones */
+  }
+  
+
+  
+  form {
+    padding: 20px; /* Relleno dentro del formulario */
+  }
+  
+  input, textarea {
+    margin-bottom: 10px; /* Margen inferior entre elementos del formulario */
+    padding: 5px; /* Relleno dentro de los elementos del formulario */
+  }
+
+  main {
+    width: 80%; /* Ancho del contenido principal */
+    margin: 0 auto; /* Centrar el contenido principal */
+  }
+  
+  section {
+    border: 1px solid #ccc; /* Borde alrededor de las secciones */
+    padding: 15px; /* Relleno dentro de las secciones */
+  }
+  
+  img {
+    width: 300px; /* Ancho fijo para las imágenes */
+    height: auto; /* Mantener la proporción de la imagen */
+  }
+  
+  footer {
+    background-color: #11ecda; /* Color de fondo del pie de página */
+    text-align: center; /* Centrar el texto del pie de página */
+    padding: 10px; /* Relleno dentro del pie de página */
+  }
+  a:visited {
+    color: #888; /* Color para enlaces visitados */
+  }
+  
+  a.boton { /* Clase para botones */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  a.boton:hover {
+    background-color: #28a745; /* Verde al pasar el cursor sobre el botón */
+  }

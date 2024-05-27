@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mi página web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Productos</a>
+            <ul>
+              <li><a href="#">Categoría 1</a></li>
+              <li><a href="#">Categoría 2</a></li>
+              <li><a href="#">Categoría 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+  <h1>¡Bienvenidos al Sitio web mas popular de Menus atractivos en CBA Capital!</h1>
+  <p>Esta es una página web básica.</p>
+
+  <h1>¡Contáctanos y dejanos tus datos para mas sugerencias!</h1>
+  <form action="procesar.php" method="post">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    <button type="submit">ENVIAR</button>
+
+    <main>
+        <section>
+          <h2>Nuestros Sugeridos del Día</h2>
+          <p>Hoy pensamos para VOS productos de alta calidad en la Ruta del Chori.</p>
+          <img src="Imagen1.jpg" alt="Imagen de producto">
+        </section>
+    
+        <section>
+          <Imagen1.jpg>
+          </ul>
+        </section>
+      </main>
+  </form>
+
+  <footer>
+    <p>&copy; 2024 Mi empresa: Sugerencias de Menús</p>
+    <p>Información de contacto</p>
+    <p>Tel: 0351 - 12344521</p>
+  </footer>
+</body>
+</html>
